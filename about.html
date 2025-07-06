@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>This is my first composition Css inclusive</title>
+  
+  
+  <style>
+  	* {
+	box-sizing: border-box;
+	}
+	
+    body {
+      font-family: Arial, sans-serif;
+      padding: 2em;
+      background-color: #587db8;
+    }
+
+    h1 {
+      color: #333;
+	   }
+	h2 {
+		text-align: center;
+		padding-left: 20ps
+		}
+	h3  {
+	     text-align: center;
+	    padding-left: 20px;
+		}
+	h4  {
+		text-align: center;
+	     padding-left: 20px;  
+	    }
+	   
+	
+	/* Style the header */
+	header {
+		background-color: #666;
+		padding: 30px;
+		text-align: center;
+		font-size: 35px;
+		color: white;
+		}
+		
+	/* Create two columns/boxes that floats next to each other */
+	nav {
+	float: left;
+	width: 20%;
+	height: 260px; /* only for demonstration, should be removed */
+	background: #ccc;
+	padding: 20px;
+		}
+		
+	/* style to apply on learn paragraph*/
+	learn {
+            /* background-color:#306ccf;    disable because no good */
+	padding: 20px;
+	font-size: 20px;
+	text-align:center;
+	color: white;
+	}
+	
+	/* Style the footer */
+	footer {
+	background-color: #777;
+	padding: 10px;
+	text-align: center;
+	color: white;
+	}
+	
+	/* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
+	@media (max-width: 600px) {
+	nav, article {
+		width: 100%;
+		height: auto;
+	}
+  </style>
+  
+</head>
+
+
+<body>
+  <header>Hello world yard</header>
+  <section>
+	<nav>
+		<p>My name is Lion. Descending of Peter</p>
+	</nav>
+  </section>
+  <p>
+	<h2>My next art will approach to draw a card</h2>
+  </p>
+  
+  <h3>Thanks to my parant , who provide me so much that I have free of time to learn</h3>
+  
+  <h4>My contact method is through <a href="mailto:petersn.sec@gmail.com">petersn.sec@gmail.com</a>.</h4>
+  
+  
+  <learn>
+    <p>I can learn computer science and help people.</p>
+  </learn>
+	
+  <footer> 
+    <p>It's nearly description about me<p>
+  </footer>
+
+</body>
+</html>
